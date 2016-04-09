@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-04-09 05:17+0500\n"
+"PO-Revision-Date: 2016-04-09 05:30+0500\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.7\n"
 "Last-Translator: Systemo <s@systemo.biz>\n"
@@ -1693,7 +1693,7 @@ msgstr ""
 #: includes/class.llms.frontend.forms.php:767
 msgid "<a href=\"%s\">%s</a> membership level allows access to this content."
 msgstr ""
-"<a href=\"%s\">%s</a> - требуемый уровень подписки для этого содержания."
+"<a  href=\"%s\">%s</a> - требуемый уровень подписки для этого содержания."
 
 #: includes/class.llms.frontend.forms.php:810
 #: includes/class.llms.frontend.forms.php:869
@@ -4506,7 +4506,7 @@ msgstr "Пароль"
 #: templates/global/form-login.php:28 templates/myaccount/form-login.php:23
 #: templates/myaccount/form-login.php:44
 msgid "Login"
-msgstr "Логин"
+msgstr "Войти"
 
 #: templates/global/form-login.php:31 templates/myaccount/form-login.php:46
 msgid "Remember me"
@@ -4583,7 +4583,7 @@ msgstr "Повторите пароль"
 
 #: templates/global/form-registration.php:135
 msgid "Have a Voucher?"
-msgstr ""
+msgstr "Есть ваучер?"
 
 #: templates/global/form-registration.php:138
 #: templates/global/form-registration.php:139
@@ -4594,7 +4594,7 @@ msgstr "Ваучер код"
 
 #: templates/global/form-registration.php:149
 msgid "I have read and agree to the <a href=\"%s\">Terms and Conditions</a>"
-msgstr ""
+msgstr "Я прочитал и согласен с <a href=\"%s\">офертой</a>"
 
 #: templates/global/form-registration.php:159
 msgid "Anti-spam"

@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2016-04-09 04:42+0500\n"
+"PO-Revision-Date: 2016-04-09 05:17+0500\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.7\n"
 "Last-Translator: Systemo <s@systemo.biz>\n"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: includes/admin/analytics/class.llms.analytics.courses.php:221
 msgid "Enrolled Students"
-msgstr ""
+msgstr "Зачисленные студенты"
 
 #: includes/admin/analytics/class.llms.analytics.courses.php:239
 #: includes/admin/students/class.llms.students.dashboard.php:156
@@ -1019,7 +1019,7 @@ msgstr ""
 #: includes/admin/settings/class.llms.settings.accounts.php:37
 #: templates/myaccount/my-navigation.php:17
 msgid "Account Settings"
-msgstr ""
+msgstr "Настройки счета"
 
 #: includes/admin/settings/class.llms.settings.accounts.php:37
 msgid "Customize your users account and sign up experience."
@@ -1684,7 +1684,7 @@ msgstr ""
 
 #: includes/class.llms.frontend.forms.php:731
 msgid "You already own this course. You cannot purchase it again."
-msgstr ""
+msgstr "У вас уже есть  этот курс. Вы не можете купить его снова."
 
 #: includes/class.llms.frontend.forms.php:746
 msgid "This content is not available until %s"
@@ -1693,6 +1693,7 @@ msgstr ""
 #: includes/class.llms.frontend.forms.php:767
 msgid "<a href=\"%s\">%s</a> membership level allows access to this content."
 msgstr ""
+"<a href=\"%s\">%s</a> - требуемый уровень подписки для этого содержания."
 
 #: includes/class.llms.frontend.forms.php:810
 #: includes/class.llms.frontend.forms.php:869
@@ -1861,11 +1862,11 @@ msgstr ""
 
 #: includes/class.llms.install.php:486
 msgid "Student"
-msgstr ""
+msgstr "Студент"
 
 #: includes/class.llms.lesson.php:469
 msgid "Mark Complete"
-msgstr ""
+msgstr "Отметить как выполненный"
 
 #: includes/class.llms.lesson.php:487
 msgid "User cannot be found."
@@ -2238,7 +2239,7 @@ msgstr ""
 #: includes/class.llms.post-types.php:308 templates/loop/view-link.php:19
 #: templates/myaccount/my-courses.php:69
 msgid "View Course"
-msgstr ""
+msgstr "Просмотреть курс"
 
 #: includes/class.llms.post-types.php:309
 msgid "Search Courses"
@@ -2626,7 +2627,7 @@ msgstr ""
 #: includes/class.llms.post-types.php:627
 #: templates/myaccount/my-certificates.php:13
 msgid "My Certificates"
-msgstr ""
+msgstr "Мои сертификаты"
 
 #: includes/class.llms.post-types.php:628
 msgid "My Certificate"
@@ -2866,7 +2867,7 @@ msgstr ""
 #: includes/class.llms.post-types.php:791
 #: includes/class.llms.post-types.php:792
 msgid "View Coupon"
-msgstr ""
+msgstr "Посмотреть купон"
 
 #: includes/class.llms.post-types.php:793
 msgid "Search Coupon"
@@ -3906,7 +3907,7 @@ msgstr ""
 
 #: includes/llms.functions.core.php:213
 msgid "Russian Federation"
-msgstr ""
+msgstr "Россия (РФ, Russian)"
 
 #: includes/llms.functions.core.php:214
 msgid "Rwanda"
@@ -4329,6 +4330,7 @@ msgstr ""
 msgid ""
 "<a href=\"%1$s\">Login or create an account to purchase this course</a>."
 msgstr ""
+"<a href=\"%1$s\">Войдите или зарегистрируйтесь чтобы купить этот курс</a>."
 
 #: includes/shortcodes/class.llms.shortcode.my.account.php:142
 msgid "Your password has been reset."
@@ -4419,7 +4421,7 @@ msgstr ""
 
 #: templates/course/complete-lesson-link.php:30
 msgid "Lesson Complete"
-msgstr ""
+msgstr "Урок завершен"
 
 #: templates/course/complete-lesson-link.php:59
 msgid "Take Quiz"
@@ -4432,17 +4434,17 @@ msgstr ""
 #: templates/course/lesson-navigation.php:23
 #: templates/course/lesson-navigation.php:24
 msgid "Previous Lesson"
-msgstr ""
+msgstr "Предыдущий урок"
 
 #: templates/course/lesson-navigation.php:39
 #: templates/course/lesson-navigation.php:40
 msgid "Back to Course"
-msgstr ""
+msgstr "Назад к курсу"
 
 #: templates/course/lesson-navigation.php:52
 #: templates/course/lesson-navigation.php:53 templates/quiz/start-button.php:39
 msgid "Next Lesson"
-msgstr ""
+msgstr "Следующий урок"
 
 #: templates/course/lesson_length.php:20
 msgid "Estimated Time: <span class=\"length\">%s</span>"
@@ -4453,6 +4455,8 @@ msgid ""
 "<p class=\"llms-parent-course-link\">Back to: <a class=\"llms-lesson-link\" "
 "href=\"%s\">%s</a></p>"
 msgstr ""
+"<p class=\"llms-parent-course-link\">Обратно: <a class=\"llms-lesson-link\" "
+"href=\"%s\">%s</a></p>"
 
 #: templates/course/price.php:25
 msgctxt "pricing seperator"
@@ -4462,11 +4466,11 @@ msgstr ""
 #: templates/course/purchase-link.php:78 templates/course/purchase-link.php:125
 #: templates/course/purchase-link.php:150
 msgid "Course is no longer available"
-msgstr ""
+msgstr "Курс больше не доступен"
 
 #: templates/course/purchase-link.php:160
 msgid "Course %s%% Complete!"
-msgstr ""
+msgstr "Курс %s %% Завершен!"
 
 #: templates/course/syllabus.php:101
 msgid "of"
@@ -4474,99 +4478,99 @@ msgstr "из"
 
 #: templates/emails/reset-password.php:6
 msgid "Password reset"
-msgstr ""
+msgstr "Сброс пароля"
 
 #: templates/emails/reset-password.php:7
 msgid "Username: %s"
-msgstr ""
+msgstr "Имя пользователя: %s"
 
 #: templates/emails/reset-password.php:8
 msgid "To reset your password, click on the link below."
-msgstr ""
+msgstr "Чтобы сбросить свой пароль, нажмите на ссылку ниже."
 
 #: templates/emails/reset-password.php:11
 msgid "Click here to reset your password"
-msgstr ""
+msgstr "Нажмите здесь чтобы сбросить пароль"
 
 #: templates/global/form-login.php:15
 #: templates/myaccount/form-lost-password.php:13
 msgid "Username or email"
-msgstr ""
+msgstr "Имя пользователя или email адрес"
 
 #: templates/global/form-login.php:19
 #: templates/global/form-registration.php:109
 #: templates/myaccount/form-login.php:36
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: templates/global/form-login.php:28 templates/myaccount/form-login.php:23
 #: templates/myaccount/form-login.php:44
 msgid "Login"
-msgstr ""
+msgstr "Логин"
 
 #: templates/global/form-login.php:31 templates/myaccount/form-login.php:46
 msgid "Remember me"
-msgstr ""
+msgstr "Запомнить меня"
 
 #: templates/global/form-login.php:35 templates/myaccount/form-login.php:51
 msgid "Lost your password?"
-msgstr ""
+msgstr "Забыли пароль?"
 
 #: templates/global/form-registration.php:20
 #: templates/global/form-registration.php:167
 msgid "Register"
-msgstr ""
+msgstr "Регистрация"
 
 #: templates/global/form-registration.php:29
 msgid "Username"
-msgstr ""
+msgstr "Имя пользователя"
 
 #: templates/global/form-registration.php:38
 msgid "First Name"
-msgstr ""
+msgstr "Имя"
 
 #: templates/global/form-registration.php:43
 msgid "Last Name"
-msgstr ""
+msgstr "Фамилия"
 
 #: templates/global/form-registration.php:52
 msgid "Phone"
-msgstr ""
+msgstr "Телефон"
 
 #: templates/global/form-registration.php:60
 #: templates/myaccount/form-edit-account.php:65
 msgid "Billing Address 1"
-msgstr ""
+msgstr "Платежный адрес 1"
 
 #: templates/global/form-registration.php:64
 #: templates/myaccount/form-edit-account.php:69
 msgid "Billing Address 2"
-msgstr ""
+msgstr "Платежный адрес 2"
 
 #: templates/global/form-registration.php:68
 #: templates/myaccount/form-edit-account.php:73
 msgid "Billing City"
-msgstr ""
+msgstr "Город"
 
 #: templates/global/form-registration.php:72
 #: templates/myaccount/form-edit-account.php:77
 msgid "Billing State"
-msgstr ""
+msgstr "Регион"
 
 #: templates/global/form-registration.php:76
 #: templates/myaccount/form-edit-account.php:81
 msgid "Billing Zip"
-msgstr ""
+msgstr "Индекс"
 
 #: templates/global/form-registration.php:80
 #: templates/myaccount/form-edit-account.php:85
 msgid "Billing Country"
-msgstr ""
+msgstr "Страна"
 
 #: templates/global/form-registration.php:93
 #: templates/myaccount/form-edit-account.php:26
 msgid "Email address"
-msgstr ""
+msgstr "Email адрес"
 
 #: templates/global/form-registration.php:100
 msgid "Re-enter your email address"
@@ -4575,7 +4579,7 @@ msgstr ""
 #: templates/global/form-registration.php:114
 #: templates/myaccount/form-lost-password.php:25
 msgid "Re-enter new password"
-msgstr ""
+msgstr "Повторите пароль"
 
 #: templates/global/form-registration.php:135
 msgid "Have a Voucher?"
@@ -4586,7 +4590,7 @@ msgstr ""
 #: templates/myaccount/form-redeem-voucher.php:18
 #: templates/myaccount/form-redeem-voucher.php:19
 msgid "Voucher Code"
-msgstr ""
+msgstr "Ваучер код"
 
 #: templates/global/form-registration.php:149
 msgid "I have read and agree to the <a href=\"%s\">Terms and Conditions</a>"
@@ -4594,7 +4598,7 @@ msgstr ""
 
 #: templates/global/form-registration.php:159
 msgid "Anti-spam"
-msgstr ""
+msgstr "Анти-спам"
 
 #: templates/loop/difficulty.php:8
 msgid "Difficulty: %s"
@@ -4610,54 +4614,54 @@ msgstr ""
 
 #: templates/loop/price.php:25 templates/membership/price.php:25
 msgid "or"
-msgstr ""
+msgstr "или"
 
 #: templates/loop/view-link.php:34
 msgid "Learn More"
-msgstr ""
+msgstr "Подробнее"
 
 #: templates/membership/purchase-link.php:42
 #: templates/membership/purchase-link.php:49
 #: templates/membership/purchase-link.php:57
 #: templates/membership/purchase-link.php:70
 msgid "Sign Up"
-msgstr ""
+msgstr "Регистрируйтесь"
 
 #: templates/myaccount/form-edit-account.php:15
 msgid "Basic Information"
-msgstr ""
+msgstr "Основная информация"
 
 #: templates/myaccount/form-edit-account.php:18
 msgid "First name"
-msgstr ""
+msgstr "Имя"
 
 #: templates/myaccount/form-edit-account.php:22
 msgid "Last name"
-msgstr ""
+msgstr "Фамилия"
 
 #: templates/myaccount/form-edit-account.php:34
 msgid "Change Password"
-msgstr ""
+msgstr "Смена пароля"
 
 #: templates/myaccount/form-edit-account.php:37
 msgid "Password (leave blank to leave unchanged)"
-msgstr ""
+msgstr "Пароль (оставьте пустым, если не хотите его менять)"
 
 #: templates/myaccount/form-edit-account.php:41
 msgid "Confirm new password"
-msgstr ""
+msgstr "Подтвердить новый пароль"
 
 #: templates/myaccount/form-edit-account.php:52
 msgid "Billing Information"
-msgstr ""
+msgstr "Платежная информация"
 
 #: templates/myaccount/form-edit-account.php:104
 msgid "Save changes"
-msgstr ""
+msgstr "Сохранить изменения"
 
 #: templates/myaccount/form-login.php:32
 msgid "Username or email address"
-msgstr ""
+msgstr "Имя пользователя или email адрес"
 
 #: templates/myaccount/form-lost-password.php:11
 msgid ""
@@ -4684,31 +4688,31 @@ msgstr ""
 #: templates/myaccount/form-redeem-voucher.php:22
 msgctxt "Voucher Code"
 msgid "Submit"
-msgstr ""
+msgstr "Отправить"
 
 #: templates/myaccount/my-account.php:18
 msgid "<h3>Hello <strong>%1$s</strong></h3>"
-msgstr ""
+msgstr "<h3>Привет <strong>%1$s</strong></h3>"
 
 #: templates/myaccount/my-account.php:22
 msgid "What would you like to learn today?"
-msgstr ""
+msgstr "Что бы Вы хотел сделать сегодня?"
 
 #: templates/myaccount/my-achievements.php:14
 msgid "My Achievements"
-msgstr ""
+msgstr "Мои достижения"
 
 #: templates/myaccount/my-achievements.php:41
 msgid "Complete courses and lessons to earn achievements."
-msgstr ""
+msgstr "Завершите курсы и уроки, чтобы получить достижения."
 
 #: templates/myaccount/my-certificates.php:33
 msgid "Complete courses and lessons to earn certificates."
-msgstr ""
+msgstr "Завершите курсы и уроки чтобы получить сертификаты."
 
 #: templates/myaccount/my-courses.php:9
 msgid "Courses In-Progress"
-msgstr ""
+msgstr "Курсы в процессе"
 
 #: templates/myaccount/my-courses.php:30
 msgid "<p class=\"author\">Author: <span>%s</span></p>"
@@ -4716,11 +4720,11 @@ msgstr ""
 
 #: templates/myaccount/my-courses.php:43
 msgid "Status:"
-msgstr ""
+msgstr "Статус:"
 
 #: templates/myaccount/my-courses.php:49
 msgid "Course Started"
-msgstr ""
+msgstr "Курс начат"
 
 #: templates/myaccount/my-courses.php:84
 msgid "You are not enrolled in any courses."
@@ -4728,15 +4732,15 @@ msgstr ""
 
 #: templates/myaccount/my-memberships.php:10
 msgid "My Memberships"
-msgstr ""
+msgstr "Мои подписки"
 
 #: templates/myaccount/my-memberships.php:24
 msgid "Enrolled: %s"
-msgstr ""
+msgstr "Записан: %s"
 
 #: templates/myaccount/my-memberships.php:25
 msgid "Status: %s"
-msgstr ""
+msgstr "Статус: %s"
 
 #: templates/myaccount/my-memberships.php:34
 msgid "You are not currently enrolled in any memberships."
@@ -4744,15 +4748,15 @@ msgstr ""
 
 #: templates/myaccount/my-navigation.php:14
 msgid "My Account"
-msgstr ""
+msgstr "Мой профиль"
 
 #: templates/myaccount/my-navigation.php:20
 msgid "Redeem a Voucher"
-msgstr ""
+msgstr "Активировать ваучер"
 
 #: templates/myaccount/my-navigation.php:23
 msgid "Sign out"
-msgstr ""
+msgstr "Выйти"
 
 #: templates/quiz/attempts.php:23
 msgid ""
@@ -4834,6 +4838,8 @@ msgid ""
 "LifterLMS, the #1 WordPress LMS solution, makes it easy to create, sell, and "
 "protect engaging online courses."
 msgstr ""
+"LifterLMS, LMS-решение №1 для WordPress, делает простым создание онлайн "
+"курсов, их продажу и защиту"
 
 #. Author of the plugin/theme
 msgid "Mark Nelson, Thomas Patrick Levy, codeBOX, LLC"
